@@ -11,12 +11,9 @@ FactoryGirl.define do
     
   end
 
-
-  factory :me, class: User do
-    name "Jeff"
-    email "jromineut@gmail.com"
-    password "foobar"
-    password_confirmation "foobar"
+  factory :micropost do
+    content "Lorem ipsum"
+    user
   end
 end
 
